@@ -10,4 +10,11 @@ int main(){
 	b = a - b;
 	a = a - b;
 	cout << "Values after swapping -> " << "a : " << a << "b : " << b;
+ 
+	//Swapping values using third variable
+	int c;
+	c = a;
+	a = b;
+	b = c;
+	cout << "Values after swapping -> " << "a : " << a << "b : " << b;
 }
