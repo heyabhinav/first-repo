@@ -1,9 +1,13 @@
 #include<iostream>
 using namespace std;
+
+void add(int x, int y){
+	cout << "Sum : " << x+y << endl;
+}
+
 int main(){
-	cout<<"Hello World";
+
 	int a=10, b=20;
-	cout << "Sum : " << a+b; // Sum of two numbers.
 	
 	//Swapping
 	a = a + b;
