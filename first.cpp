@@ -4,7 +4,7 @@ using namespace std;
 void add(int x, int y){
 	cout << "Sum : " << x+y << endl;
 }
-
+// comment
 int main(){
 
 	int a=10, b=20;
